@@ -1638,3 +1638,11 @@ body.is-preload-1 .panel>.content {
 body.is-preload-0 #footer {
     opacity: 0;
 }
+
+#midcontent {
+    text-align: center;
+}
+
+#midcontent .midtxt {
+    font-size: 3em;
+}
