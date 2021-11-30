@@ -1,0 +1,37 @@
+encoding: utf-8
+
+# SEO相关信息
+title: Suwmlee
+description: 一点
+keywords: Java,Html,JavaScript
+author: Suwmlee
+footerText: 'Copyright © Suwmlee'
+
+# 这些不要动
+permalink: /posts/:year/:month/:day/:title.html
+kramdown:
+  auto_ids: true
+  input: GFM
+  syntax_highlighter: rouge
+exclude: ['README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock']
+
+# 域名配置
+# baseurl配置,如果网站部署在根目录下的其他目录中，请设置为 /目录名
+domainUrl: 'https://blog.tmaize.net'
+baseurl: ''
+
+# 菜单
+menu:
+  - title: 首页
+    url: /
+  - title: 目录
+    url: /pages/categories.html
+  - title: 搜索
+    url: /pages/search.html
+
+# Google Adsense,不需要请设置为false
+# _includes/ext-adsense.html 里面修改为自己的配置
+extAdsense: false
+
+# 数学公式支持，比较影响加载速度,不需要请设置为false
+extMath: false
