@@ -24,8 +24,8 @@ baseurl: ''
 menu:
   - title: 首页
     url: /
-  - title: 目录
-    url: /pages/blogs.html
+  - title: 归类
+    url: /pages/categories.html
   - title: 搜索
     url: /pages/search.html
 
