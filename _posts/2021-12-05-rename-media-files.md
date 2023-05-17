@@ -4,7 +4,7 @@ title: 媒体文件分类/命名
 categories: [media, emby, naming]
 ---
 
-# 分类
+## 分类
   - 电影 Movies
   - 动画 Anime
   - 剧集 Series
@@ -17,7 +17,7 @@ categories: [media, emby, naming]
   - 图片 Pictures
   - 其他 Other
 
-# 命名
+## 命名
 
 #### 电影
 
