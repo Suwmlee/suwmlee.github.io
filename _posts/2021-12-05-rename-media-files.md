@@ -4,7 +4,7 @@ title: 媒体文件分类/命名
 categories: [media, emby, naming]
 ---
 
-# 分类:
+# 分类
   - 电影 Movies
   - 动画 Anime
   - 剧集 Series
@@ -17,9 +17,9 @@ categories: [media, emby, naming]
   - 图片 Pictures
   - 其他 Other
 
-# 命名:
+# 命名
 
-#### 电影:
+#### 电影
 
 Movie Name . Movie Year . Edition . Relevant Information - Group Tag
 
@@ -68,7 +68,7 @@ Snatch.2000.UHD.BluRay.2160p.HEVC.TrueHD.Atmos.7.1-BeyondHD
 Marvel's.Agents.of.S.H.I.E.L.D.S07.BluRay.1080p.AVC.DTS-HD.MA.5.1-BeyondHD
 ```
 
-#### 剧集:
+#### 剧集
 
 Series Name . Series Year . Season Number(+Episode Number) . Edition . Relevant Information . Group Tag
 
