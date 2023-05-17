@@ -4,6 +4,8 @@ title: Musicbetter使用说明 v0.2
 categories: [musicbetter, transcode, upload]
 ---
 
+Musicbetter是一个脚本工具，它可以对音乐进行转码然后自动上传到站点。
+
 ### 准备阶段
 
 - docker下载镜像:
@@ -42,7 +44,7 @@ categories: [musicbetter, transcode, upload]
 
     确保`data`路径下有需要转码的音乐，在shell内运行以下命令
     ```sh
-    docker-compose run --rm musicbetter -U "http://redacted.ch/torrents.php?id=1000&torrentid=1000000"
+    docker-compose run --rm musicbetter -U "http://xxxx.ch/torrents.php?id=1000&torrentid=1000000"
     ```
     第一次使用 `-U` 参数测试，只在本地转码，不上传到red，测试转码成功后，取消 `-U` 参数即可自动上传
     此地址的种子文件必须已经下载到 data 文件夹
