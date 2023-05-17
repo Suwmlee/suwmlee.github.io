@@ -4,6 +4,8 @@ title: 媒体文件分类/命名
 categories: [media, emby, naming]
 ---
 
+个人使用的多媒体文件分类、命名规则
+
 ## 分类
   - 电影 Movies
   - 动画 Anime
@@ -92,7 +94,7 @@ __注意:__
 
 一般为专辑存档
 
-艺术家 - 专辑名 [年份][来源][格式信息] /  
+艺术家 - 专辑名 (年份)[来源][格式信息] /  
     曲目编号 - 曲目名称
 
 - 来源: `CD` `WEB` 等
@@ -100,11 +102,11 @@ __注意:__
 
 例子:
 ```
-Taylor Swift - Reputation[2017][CD][FLAC] /
+Taylor Swift - Reputation(2017)[CD][FLAC] /
   01 - ...Ready For It.flac
   02 - End Game (feat. Ed Sheeran & Future).flac
 
-Adele - 25[2015][WEB][FLAC] /
+Adele - 25(2015)[WEB][FLAC] /
   01 - Hello.flac
   02 - Send My Love (To Your New Lover).flac
 ```
@@ -155,6 +157,3 @@ IPX-001-uncensored-C-CD2
 
 __注意:__
 - 如果存在多集编号，一定在最后增加`CDx`标记
-
----
-部分参考网络上的命名规则
